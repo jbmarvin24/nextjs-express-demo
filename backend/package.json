@@ -1,0 +1,28 @@
+{
+  "name": "express-typescript-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Batman024",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37",
+    "nodemon": "^2.0.7",
+    "prisma": "^2.19.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
